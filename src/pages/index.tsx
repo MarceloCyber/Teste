@@ -20,11 +20,11 @@ export default function Home() {
 
   return (
     <div className={`
-      flex flex-1 justify-center items-center w-full h-screen
-      bg-gradient-to-r from-blue-700 to-blue-400
-      text-white
+      flex flex-1 justify-center items-center md:w-full h-screen
+      bg-gradient-to-r from-blue-600 to-blue-300  
+      text-white 
     `}>
-      <Layout titulo="Dados da Api ">
+      <Layout titulo="Dados da Api " >
         {tabelaVisivel ? (
           <>
             <div className="flex justify-end">

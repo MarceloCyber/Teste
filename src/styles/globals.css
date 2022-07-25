@@ -17,9 +17,9 @@ a {
 
 
 @media screen and (max-width: 850px) {
-  .table-action th {
+  .table-action {
 
-    width: 50%;
+   
     
 
   
@@ -28,13 +28,17 @@ a {
   }
 
 
-
-
-  .table-action  td {
+  .table-body {
    
-    width: 98px;
    
-
-
+    
+    
+    
   }
+
+
+ 
 }
+
+
+  

@@ -31,7 +31,7 @@ export default function Tabela(props: TabelaProps) {
             return (
                 
                 <tr  key={cliente.id}
-                    className={`${i % 2 === 0 ? 'bg-purple-200' : 'bg-purple-100 table-action '}`}>
+                    className={`${i % 2 === 0 ? 'bg-blue-200' : 'bg-blue-100   '}`}>
                     <td className=" text-left p-2">{cliente.id}</td>
                     <td className=" text-left p-2">{cliente.nome}</td>
                     <td className="text-left p-2">{cliente.idade}</td>
@@ -68,14 +68,14 @@ export default function Tabela(props: TabelaProps) {
     }
 
     return (
-        <table className="w-full rounded-xl overflow-hidden">
+        <table className="md:w-full rounded-xl overflow-hidden ">
             <thead className={`
                 text-gray-100
-                bg-gradient-to-r from-purple-500 to-purple-800
+                bg-gradient-to-r from-blue-500 to-blue-800
             `}>
                 {renderizarCabecalho()}
             </thead>
-            <tbody>
+            <tbody className="">
                 {renderizarDados()}
             </tbody>
         </table>
