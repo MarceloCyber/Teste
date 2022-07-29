@@ -21,10 +21,10 @@ export default function Home() {
   return (
     <div className={`
       flex flex-1 justify-center items-center md:w-full h-screen
-      bg-gradient-to-r from-blue-600 to-blue-300  
+      bg-gradient-to-r from-gray-600 to-gray-300  
       text-white 
     `}>
-      <Layout titulo="Dados da Api " >
+      <Layout titulo="Dados" >
         {tabelaVisivel ? (
           <>
             <div className="flex justify-end">
